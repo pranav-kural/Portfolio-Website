@@ -80,6 +80,37 @@ h1.title {
 .potrait {
   max-width: 65%;
 }
+ul.social_buttons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+ul.social_buttons li {
+  padding: 0 1em;
+}
+i.fa {
+    font-size: 3em;
+    color: white;
+}
+footer {
+  position: absolute !important;
+  bottom: 0;
+  width: 100%;
+  color: #000;
+  font-family: Lato, Verdana, sans-serif;
+  padding-bottom: 1em;
+}
+#skills_list .about_para {
+  text-align: left;
+  max-width: 60%;
+  margin: 0 auto;
+  font-size: 1em;
+}
+#center_pallet {
+   color: black; 
+   max-width: 80%;
+   margin: 0 auto;
+}
 
 /* Overriding bootstrap defaults */
 nav.navbar {
@@ -105,4 +136,8 @@ ul.nav.navbar-nav {
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     background-color: transparent;
+}
+.list-group li {
+  background-color: #286090;
+  color: white;
 }
