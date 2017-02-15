@@ -1,4 +1,23 @@
 <% include ./partials/header.ejs %>
-    <h1><%= title %></h1>
-    <p><%= message %></p>
+    <div class="section" data-anchor="home_landing">
+        <div id="diamond">
+            <img class="img-responsive" src="./images/diamond_abstract.jpg" alt="Pranav Kural">
+            <span class="hidden-xs" data-menuanchor="about_me"><a href="#about_me"><img id="scroll_down" src="./images/chevron_down.gif" alt="Scroll down" title="Scroll down"></a></span>
+        </div>
+    </div>
+    <div class="section" data-anchor="about_me">
+        <div class="container">
+            <div class="row about_section_home">
+                <div class="col-md-4 col-sm-5 col-xs-12">
+                    <img class="potrait img-rounded img-responsive" src="./images/my_potrait.jpg" alt="Pranav Kural">
+                </div>
+                <div class="col-md-8 col-sm-7 col-xs-12">
+                     <div class="about_section_home_para about_para">
+                        <h1>Hi! I'm Pranav</h1>
+                        <p>Welocme to my portfolio website. I'm a Computer programming student at the Georgian College. Programming is my love, problem solving is my passion and designing is my artistic ambition. With all three of them combined in Web Development, I endeavor on creating and developing something that embraces innovation and creativity. Know More <a href="/about">About Me</a></p>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
 <% include ./partials/footer.ejs %>
