@@ -4,7 +4,7 @@ body {
   font-family: Montserrat, Verdana, sans-serif;
   font-size: 1.2em;
   text-align: center;
-  padding-top: 30px !important;
+  padding-top: 40px !important;
 }
 
 /* Extra Small Devices, Phones */ 
@@ -107,6 +107,11 @@ footer {
   font-size: 1em;
 }
 #center_pallet {
+   color: black; 
+   max-width: 80%;
+   margin: 0 auto;
+}
+.centero_pallet {
    color: black; 
    max-width: 80%;
    margin: 0 auto;
